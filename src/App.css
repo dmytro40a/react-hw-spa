@@ -1,0 +1,63 @@
+body {
+  background-color: rgb(231, 231, 231);
+}
+
+.App {
+  text-align: center;
+  font-weight: 400;
+}
+
+.header {
+  width: 100%;
+  position: sticky;
+  top: 0px;
+  background-color: rgb(54, 54, 54);
+  z-index: 2;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0;
+  width: 100vh;
+}
+
+.link,
+li {
+  padding: 20px;
+  font-weight: 700;
+  color: aliceblue;
+  list-style: none;
+  text-decoration: none;
+  transition: 0.1s ease-out;
+}
+
+.link:hover {
+  background-color: rgba(0, 242, 255, 0.682);
+  transition: 0.2s;
+}
+
+.active {
+  background-color: rgba(0, 242, 255, 0.833);
+}
+
+.home-page-img {
+  margin: 20px auto;
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 50px;
+}
+
+@media screen and (max-width: 500px) {
+  .nav-list {
+    margin: 0;
+    width: auto;
+  }
+
+  li {
+    padding: 20px 0;
+  }
+}

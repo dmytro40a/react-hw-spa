@@ -1,0 +1,57 @@
+h1 {
+    font-weight: 800;
+    margin: 5px;
+}
+
+h2,
+p {
+    font-size: 15px;
+    margin: 5px;
+}
+
+.contacts-container {
+    height: max-content;
+    width: auto;
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 10px;
+    box-sizing: border-box;
+}
+
+.search {
+    height: 20px;
+    min-width: 250px;
+    margin: 10px 0;
+    text-align: center;
+    font-size: 14px;
+    outline: none;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    background-image: url(../../assets/search.png);
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: 5px;
+}
+
+.contact-card {
+    position: relative;
+    height: 50px;
+    width: 300px;
+    margin: 10px auto;
+    background-color: rgba(151, 151, 151, 0.415);
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.gender_icon {
+    position: absolute;
+    height: 24px;
+    width: 24px;
+    top: 20%;
+    left: 1%;
+}
+
+.contact-card:hover {
+    cursor: pointer;
+    background-color: #909090;
+}
